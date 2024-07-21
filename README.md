@@ -2,27 +2,17 @@
 
 - Developed a long-short term memory (LSTM) model in Python to predict stock prices for big companies such as Google, JNJ, BRK.B, based on trend, momentum, volume, and volatility factors; fine-tuned hyperparameters with Bayesian optimization and grid search such as epochs, time steps, neuron per layer, and the batch size; and achieved 92% out-of-sample accuracy.
 
+
 ### Run the Program File: Stock_Prediction_LIVE_ver1.3.5.py
 
-#1. Use the following commands in the terminal to run this program file. Change directory to the file path:
+Add a output folder: `mkdir output` 
 
-```bash
-cd
-```
-
-
-#2. Add a output folder: `mkdir output` 
-
-
-#3. An example to run this program:
+An example to run this program:
 
 ```bash
 cd /Users/shihanq/Desktop/Version1.3.6/ # This is the directory that contains source files
 python3 Stock_Prediction_LIVE_ver1.3.6.py
 ```
-
-
-
 
 ### About the Program
 
